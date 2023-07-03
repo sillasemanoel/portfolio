@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Nav />
-      teste
       <Footer />
     </>
   )

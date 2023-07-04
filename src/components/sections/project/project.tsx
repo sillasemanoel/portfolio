@@ -1,0 +1,48 @@
+import { ProjectStyle } from './projectStyle'
+
+// import { BsGithub } from 'react-icons/bs'
+// import { MdOpenInNew } from 'react-icons/md'
+
+export default function Project() {
+  return (
+    <ProjectStyle id='project'>
+      <div className="container">
+        <p title="Portfolio">Portfolio</p>
+        <h3>Each project is a unique piece of development 🧩</h3>
+        <div className="grid">
+          {/* temporary */}
+          <div>
+            <h1>under maintenance 👨‍🔧</h1>
+          </div>
+          {/* <div className="project">
+            <div className="img"></div>
+            <div className="text">
+              <h3>Hey, Hello 👋</h3>
+              <p>A technical assistance site, which allows the user to create up to 5 profiles, the profile can register, consult, delete and change the order of service. Customer can track the status of their service order through the device.</p>
+              <div className="stack">
+                <p>React</p>
+                <p>SCSS</p>
+              </div>
+              <div className="links">
+                <a
+                  target="_blank"
+                  href="#/underDevelopment"
+                  rel="noreferrer">
+                  Code
+                  <BsGithub fontSize="22px" />
+                </a>
+                <a
+                  // target="_blank"
+                  href="#/underDevelopment"
+                  rel="noreferrer">
+                  Live Demo
+                  <MdOpenInNew fontSize="22px" />
+                </a>
+              </div>
+            </div>
+          </div> */}
+        </div>
+      </div>
+    </ProjectStyle>
+  )
+}

@@ -10,7 +10,7 @@ export const FooterStyle = styled.footer`
 
   .limit {
     width: 100%;
-    max-width: 1000px;
+    max-width: 990px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,5 +39,4 @@ export const FooterStyle = styled.footer`
       gap: 16px;
     }
   }
-
 `

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-// import photograp from '../../../assets/images/'
+import photograp from '../../../assets/images/projects/technicalAssistance.png'
 
 export const ProjectStyle = styled.section`
   display: flex;
@@ -50,16 +50,6 @@ export const ProjectStyle = styled.section`
     width: 100%;
   }
 
-  .grid div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .grid div h1 {
-    font-family: 'Mulish', sans-serif;
-  }
-
   .project {
     display: flex;
     background-color: #fff;
@@ -96,7 +86,7 @@ export const ProjectStyle = styled.section`
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     overflow: hidden;
-    background-image: url();
+    background-image: url(${photograp});
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;

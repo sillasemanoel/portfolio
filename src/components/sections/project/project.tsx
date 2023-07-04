@@ -1,7 +1,7 @@
 import { ProjectStyle } from './projectStyle'
 
-// import { BsGithub } from 'react-icons/bs'
-// import { MdOpenInNew } from 'react-icons/md'
+import { BsGithub } from 'react-icons/bs'
+import { MdOpenInNew } from 'react-icons/md'
 
 export default function Project() {
   return (
@@ -10,23 +10,19 @@ export default function Project() {
         <p title="Portfolio">Portfolio</p>
         <h3>Each project is a unique piece of development 🧩</h3>
         <div className="grid">
-          {/* temporary */}
-          <div>
-            <h1>under maintenance 👨‍🔧</h1>
-          </div>
-          {/* <div className="project">
+          <div className="project">
             <div className="img"></div>
             <div className="text">
-              <h3>Hey, Hello 👋</h3>
+              <h3>Technical Assistance</h3>
               <p>A technical assistance site, which allows the user to create up to 5 profiles, the profile can register, consult, delete and change the order of service. Customer can track the status of their service order through the device.</p>
               <div className="stack">
                 <p>React</p>
-                <p>SCSS</p>
+                <p>Styled Components</p>
               </div>
               <div className="links">
                 <a
                   target="_blank"
-                  href="#/underDevelopment"
+                  href="https://github.com/sillasemanoel/technical-assistance"
                   rel="noreferrer">
                   Code
                   <BsGithub fontSize="22px" />
@@ -40,7 +36,7 @@ export default function Project() {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </ProjectStyle>

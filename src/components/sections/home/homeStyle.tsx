@@ -17,7 +17,7 @@ export const HomeStyle = styled.section`
   }
 
   .container {
-    max-width: 990px;
+    max-width: 1000px;
     width: 100%;
     height: auto;
     display: flex;

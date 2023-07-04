@@ -10,7 +10,7 @@ export const FooterStyle = styled.footer`
 
   .limit {
     width: 100%;
-    max-width: 990px;
+    max-width: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-between;

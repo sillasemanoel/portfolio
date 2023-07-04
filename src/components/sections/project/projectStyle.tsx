@@ -7,10 +7,6 @@ export const ProjectStyle = styled.section`
   background-color: #f9f9f9;
   padding: 120px 0;
 
-  @media (max-width: 1080px) {
-    padding: 70px 0 !important;
-  }
-
   .container {
     width: 1000px;
     margin: 0 auto;
@@ -43,44 +39,35 @@ export const ProjectStyle = styled.section`
   }
 
   .grid {
-    display: grid;
-    gap: 5rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
     width: 100%;
   }
 
   .project {
+    padding: 19px;
+    width: 100%;
+    height: 320px;
     display: flex;
+    flex-direction: row;
+    gap: 40px;
     background-color: #fff;
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    flex-direction: row;
-    gap: 54px;
-    height: auto;
-    padding: 19px;
   }
 
   @media (max-width: 1080px) {
     .project {
+      max-width: 420px;
+      height: auto;
       flex-direction: column !important;
-      gap: 32px;
-      margin: 0 auto;
-      width: -moz-fit-content;
-      width: -webkit-fit-content;
-      width: fit-content;
-      align-items: center;
-    }
-  }
-
-  @media (max-width: 699px) {
-    .project {
-      width: 90% !important;
     }
   }
 
   .img {
-    width: 460px;
+    width: 100%;
     height: auto;
     background-color: hsla(0, 0%, 46%, .2);
     border-radius: 16px;
@@ -94,18 +81,18 @@ export const ProjectStyle = styled.section`
 
   @media (max-width: 1080px) {
     .img {
-      width: 100% !important;
-      height: 260px;
+      height: 250px;
     }
   }
 
   .text {
+    width: 100%;
     max-width: 420px;
     height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
 
   }
 
@@ -128,7 +115,7 @@ export const ProjectStyle = styled.section`
 
   .stack {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     justify-content: center;
     margin-top: 10px;
   }

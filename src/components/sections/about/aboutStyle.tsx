@@ -5,10 +5,6 @@ export const AboutStyle = styled.section`
   padding: 120px 0;
   box-sizing: border-box;
 
-  @media (max-width: 1080px) {
-    padding: 70px 0 !important;
-  }
-
   .container {
     margin: 0 auto;
     padding: 0 32px;

@@ -5,15 +5,14 @@ import photograp from '../../../assets/images/photographys/eu.jpg'
 export const HomeStyle = styled.section`
   display: flex;
   justify-content: center;
-  min-height: 928px;
-  position: relative;
+  height: 800px;
   background-color: #f9f9f9;
   padding-top: 80px;
   box-sizing: border-box;
 
   @media (max-width: 900px) {
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 
   .container {
@@ -133,6 +132,13 @@ export const HomeStyle = styled.section`
     min-width: 350px;
     min-height: 350px;
     animation: morph 8s ease-in-out infinite;
+  }
+
+  @media (max-width: 520px) {
+    .hero {
+      min-width: 300px;
+      min-height: 300px;
+    }
   }
 
   @keyframes morph {

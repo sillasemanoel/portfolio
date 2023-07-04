@@ -4,10 +4,6 @@ export const ContactStyle = styled.section`
   background-color: #fff;
   padding: 120px 0;
 
-  @media (max-width: 1080px) {
-    padding: 70px 0 !important;
-  }
-
   .container {
     margin: 0 auto;
     max-width: 1000px;

@@ -13,27 +13,31 @@ export default function Project() {
           <div className="project">
             <div className="img"></div>
             <div className="text">
-              <h3>Technical Assistance</h3>
-              <p>A technical assistance site, which allows the user to create up to 5 profiles, the profile can register, consult, delete and change the order of service. Customer can track the status of their service order through the device.</p>
-              <div className="stack">
-                <p>React</p>
-                <p>Styled Components</p>
+              <div>
+                <h3>Technical Assistance 👨‍🔧</h3>
+                <p>A technical assistance site, which allows the user to create up to 5 profiles, the profile can register, consult, delete and change the order of service. The customer can track the status of his service order through his device.</p>
               </div>
-              <div className="links">
-                <a
-                  target="_blank"
-                  href="https://github.com/sillasemanoel/technical-assistance"
-                  rel="noreferrer">
-                  Code
-                  <BsGithub fontSize="22px" />
-                </a>
-                <a
-                  // target="_blank"
-                  href="#/underDevelopment"
-                  rel="noreferrer">
-                  Live Demo
-                  <MdOpenInNew fontSize="22px" />
-                </a>
+              <div>
+                <div className="stack">
+                  <p>React</p>
+                  <p>Styled Components</p>
+                </div>
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://github.com/sillasemanoel/technical-assistance"
+                    rel="noreferrer">
+                    Code
+                    <BsGithub fontSize="22px" />
+                  </a>
+                  <a
+                    // target="_blank"
+                    href="#/underDevelopment"
+                    rel="noreferrer">
+                    Live Demo
+                    <MdOpenInNew fontSize="22px" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

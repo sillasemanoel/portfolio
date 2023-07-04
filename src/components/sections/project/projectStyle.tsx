@@ -134,6 +134,8 @@ export const ProjectStyle = styled.section`
   }
 
   .stack p {
+    display: flex;
+    align-items: center;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     color: #000 !important;

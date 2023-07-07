@@ -65,7 +65,16 @@ export const HomeStyle = styled.section`
   @media (max-width: 520px) {
     .main div h1 {
       font-size: 40px !important;
-      margin-bottom: 0px !important;
+    }
+  }
+
+  .marginBottomTranslate {
+    margin-bottom: 20px !important;
+  }
+
+  @media (max-width: 520px) {
+    .marginBottomTranslate {
+      margin-bottom: 50px !important;
     }
   }
 
@@ -86,7 +95,7 @@ export const HomeStyle = styled.section`
       position: relative;
       width: 45px;
       height: 45px;
-      top: -47px;
+      top: -67px;
       left: 133px !important;
     }
   }

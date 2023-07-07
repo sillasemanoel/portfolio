@@ -5,6 +5,7 @@ import { HomeStyle } from './homeStyle'
 import hand from '../../../assets/images/emojis/emojiHi.png'
 
 type GreetProps = {
+  classTitle: string
   title: string
   hand: string
   description: string
@@ -17,7 +18,7 @@ export default function Home(props: GreetProps) {
       <div className="container">
         <div className="main">
           <div>
-            <h1>{props.title}</h1>
+            <h1 className={props.classTitle}>{props.title}</h1>
             <img src={hand} className={props.hand} />
             <p>{props.description}</p>
             <span>

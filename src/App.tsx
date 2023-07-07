@@ -26,6 +26,7 @@ function App() {
         </div>
       </Nav>
       <Home
+        classTitle={`${translation ? 'marginBottomTranslate' : ''}`}
         title={`${translation ?
           'Desenvolvedor Front-End React' :
           'Front-End React Developer'}`}

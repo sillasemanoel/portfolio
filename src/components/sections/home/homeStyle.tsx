@@ -41,7 +41,7 @@ export const HomeStyle = styled.section`
   }
 
   .main div {
-    max-width: 460px;
+    max-width: 470px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -75,6 +75,10 @@ export const HomeStyle = styled.section`
     position: absolute;
     top: 91px;
     right: 90px;
+  }
+
+  .pt_hand {
+    display: none;
   }
 
   @media (max-width: 520px) {
@@ -182,7 +186,7 @@ export const HomeStyle = styled.section`
     font-size: 17px;
     font-weight: 700;
     color: #2d2e32;
-    margin-right: 50px;
+    margin-right: 40px;
     padding-right: 16px;
     border-right: 2px solid rgba(45, 46, 50, .5);
     text-align: center;

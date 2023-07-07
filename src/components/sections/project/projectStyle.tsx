@@ -87,7 +87,7 @@ export const ProjectStyle = styled.section`
 
   .text {
     width: 100%;
-    max-width: 420px;
+    max-width: 455px;
     height: auto;
     display: flex;
     flex-direction: column;

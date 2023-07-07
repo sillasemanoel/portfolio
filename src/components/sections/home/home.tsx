@@ -4,16 +4,22 @@ import { HomeStyle } from './homeStyle'
 
 import hand from '../../../assets/images/emojis/emojiHi.png'
 
-export default function Home() {
+type GreetProps = {
+  title: string
+  hand: string
+  description: string
+  stack: string
+}
+
+export default function Home(props: GreetProps) {
   return (
     <HomeStyle id="home">
       <div className="container">
         <div className="main">
           <div>
-            <h1>Front-End React Developer</h1>
-            <img
-              src={hand} />
-            <p>Hi, I'm Sillas Emanoel. A passionate Front-end React Developer based in Ereré, Ceará, Brazil. 📍</p>
+            <h1>{props.title}</h1>
+            <img src={hand} className={props.hand} />
+            <p>{props.description}</p>
             <span>
               <a
                 title="Linkedin"
@@ -34,7 +40,7 @@ export default function Home() {
           <div className="hero"></div>
         </div>
         <div className="skills">
-          <p>Tech Stack</p>
+          <p>{props.stack}</p>
           <div>
             <ul>
               <li title="HTML5">

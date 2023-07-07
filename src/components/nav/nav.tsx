@@ -1,28 +1,38 @@
 import { useState } from 'react'
+
 import { CgMenuRight, CgClose } from 'react-icons/cg'
 
 import { NavStyle, MobileNavStyle } from './navStyle'
 
-export default function Nav() {
+type GreetProps = {
+  home: string
+  about: string
+  projects: string
+  contact: string
+  children: React.ReactNode
+}
 
-  const [toggle, setToggle] = useState(false);
-
+export default function Nav(props: GreetProps) {
+  const [toggle, setToggle] = useState(false)
   return (
     <>
       <NavStyle>
         <h3>Sillas.dev</h3>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">{props.home}</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about">{props.about}</a>
           </li>
           <li>
-            <a href="#project">Projects</a>
+            <a href="#project">{props.projects}</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">{props.contact}</a>
+          </li>
+          <li>
+            {props.children}
           </li>
           <li>
             <CgMenuRight onClick={() => { setToggle(!toggle) }} />
@@ -34,16 +44,16 @@ export default function Nav() {
           <CgClose onClick={() => { setToggle(!toggle) }} />
           <ul>
             <li>
-              <a href="#home" onClick={() => { setToggle(!toggle) }}>Home</a>
+              <a href="#home" onClick={() => { setToggle(!toggle) }}>{props.home}</a>
             </li>
             <li>
-              <a href="#about" onClick={() => { setToggle(!toggle) }}>About</a>
+              <a href="#about" onClick={() => { setToggle(!toggle) }}>{props.about}</a>
             </li>
             <li>
-              <a href="#project" onClick={() => { setToggle(!toggle) }}>Projects</a>
+              <a href="#project" onClick={() => { setToggle(!toggle) }}>{props.projects}</a>
             </li>
             <li>
-              <a href="#contact" onClick={() => { setToggle(!toggle) }}>Contact</a>
+              <a href="#contact" onClick={() => { setToggle(!toggle) }}>{props.contact}</a>
             </li>
           </ul>
         </div>

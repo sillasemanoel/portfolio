@@ -2,11 +2,15 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
 import { FooterStyle } from './footerStyle'
 
-export default function Footer() {
+type GreetProps = {
+  rights: string
+}
+
+export default function Footer(props: GreetProps) {
   return (
     <FooterStyle>
       <div className='limit'>
-        <h3>Copyright © 2023. All rights are reserved</h3>
+        <h3>{props.rights}</h3>
         <div className="socials">
           <a
             title="Linkedin"

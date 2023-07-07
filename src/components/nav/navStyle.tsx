@@ -7,7 +7,7 @@ export const NavStyle = styled.nav`
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  padding: 25px 40px 25px 50px;
+  padding: 20px 40px 20px 50px;
   box-sizing: border-box;
   box-shadow: 0 0 10px rgba(0, 0, 0, .09);
   z-index: 100;
@@ -26,6 +26,7 @@ export const NavStyle = styled.nav`
 
   ul li {
     display: flex;
+    align-items: center;
   }
 
   ul li a {

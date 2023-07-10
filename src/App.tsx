@@ -52,8 +52,8 @@ function App() {
           'Assistência Técnica 👨‍🔧' :
           'Technical Assistance 👨‍🔧'}`}
         gridOneText={`${translation ?
-          'Um site de assistência técnica, que permite ao usuário criar até 5 perfis, o perfil pode cadastrar, consultar, deletar e alterar a ordem de atendimento. O cliente pode acompanhar o status de sua ordem de serviço por meio de seu dispositivo.' :
-          'A technical assistance site, which allows the user to create up to 5 profiles, the profile can register, consult, delete and change the order of service. The customer can track the status of his service order through his device.'}`} />
+          'Sistema para assistências técnicas, que permite ao encarregado poder cadastrar, consultar e modificar uma ordem de atendimento. O cliente pode acompanhar os status de sua ordem de serviço por meio de seu dispositivo, e quando o reparo estiver concluído tem a escolha de retirar no local ou receber na residência.' :
+          'System for technical assistance, which allows the person in charge to register, consult and modify a service order. The customer can track the status of his service order through his device, and when the repair is complete he has the choice of picking up at the location or receiving at home.'}`} />
       <Contact
         title={`${translation ? 'Contato' : 'Contact'}`}
         caption={`${translation ?

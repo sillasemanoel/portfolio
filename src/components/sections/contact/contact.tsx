@@ -1,4 +1,4 @@
-import { ContactStyle } from './contactStyle'
+import { ContactStyle } from './style'
 
 import { FaMapMarkedAlt } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'

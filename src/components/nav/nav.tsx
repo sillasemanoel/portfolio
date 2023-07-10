@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import { CgMenuRight, CgClose } from 'react-icons/cg'
 
-import { NavStyle, MobileNavStyle } from './navStyle'
+import { NavStyle, MobileNavStyle } from './style'
 
 type GreetProps = {
   home: string

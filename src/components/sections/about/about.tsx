@@ -1,4 +1,4 @@
-import { AboutStyle } from './aboutStyle'
+import { AboutStyle } from './style'
 
 import work from '../../../assets/images/photographys/work.png'
 import emojiWork from '../../../assets/images/emojis/emojiWork.png'

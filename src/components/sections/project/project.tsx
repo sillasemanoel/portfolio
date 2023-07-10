@@ -1,4 +1,4 @@
-import { ProjectStyle } from './projectStyle'
+import { ProjectStyle } from './style'
 
 import { BsGithub } from 'react-icons/bs'
 import { MdOpenInNew } from 'react-icons/md'

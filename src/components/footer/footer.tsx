@@ -1,6 +1,6 @@
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
-import { FooterStyle } from './footerStyle'
+import { FooterStyle } from './style'
 
 type GreetProps = {
   rights: string

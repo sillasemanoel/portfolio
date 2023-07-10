@@ -49,7 +49,7 @@ export const ProjectStyle = styled.section`
   .project {
     padding: 19px;
     width: 100%;
-    height: 320px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     gap: 40px;

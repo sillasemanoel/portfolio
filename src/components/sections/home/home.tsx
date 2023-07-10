@@ -1,6 +1,6 @@
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
-import { HomeStyle } from './homeStyle'
+import { HomeStyle } from './style'
 
 import hand from '../../../assets/images/emojis/emojiHi.png'
 

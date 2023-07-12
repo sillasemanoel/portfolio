@@ -32,7 +32,7 @@ export default function Project(props: GreetProps) {
                 <div className='links'>
                   <a
                     target='_blank'
-                    href='https://github.com/sillasemanoel/technical-assistance'
+                    href='https://github.com/sillasemanoel/technical_assistance'
                     rel='noreferrer'>
                     Code
                     <BsGithub fontSize='22px' />

@@ -11,7 +11,7 @@ export default function DownloadButton(props: GreetProps) {
   const handleDownload = () => {
     const filename = 'Currículo - Sillas Emanoel Pessoa França.pdf'
     const link = document.createElement('a')
-    link.href = '/public/docs/curriculo.pdf'
+    link.href = '../../../../public/docs/curriculo.pdf'
     link.download = filename
     link.click()
   }

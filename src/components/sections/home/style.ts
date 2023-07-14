@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import photograp from '../../../assets/images/photographys/eu.jpg'
+import photograp from '../../../../public/images/photographys/eu.jpg'
 
 export const HomeStyle = styled.section`
   display: flex;
@@ -116,15 +116,17 @@ export const HomeStyle = styled.section`
   }
 
   .main div span {
+    display: flex;
     align-items: center;
     width: 70px;
     cursor: pointer;
-    display: flex;
     gap: 14px;
     margin: 30px 0;
   }
 
   .main div span a {
+    display: flex;
+    align-items: center;
     color: #2d2e32;
     font-size: 28px;
   }

@@ -20,16 +20,16 @@ export default function Nav(props: GreetProps) {
         <h3>Sillas.dev</h3>
         <ul>
           <li>
-            <a href="#home">{props.home}</a>
+            <a href='#home'>{props.home}</a>
           </li>
           <li>
-            <a href="#about">{props.about}</a>
+            <a href='#about'>{props.about}</a>
           </li>
           <li>
-            <a href="#project">{props.projects}</a>
+            <a href='#project'>{props.projects}</a>
           </li>
           <li>
-            <a href="#contact">{props.contact}</a>
+            <a href='#contact'>{props.contact}</a>
           </li>
           <li>
             {props.children}
@@ -44,16 +44,16 @@ export default function Nav(props: GreetProps) {
           <CgClose onClick={() => { setToggle(!toggle) }} />
           <ul>
             <li>
-              <a href="#home" onClick={() => { setToggle(!toggle) }}>{props.home}</a>
+              <a href='#home' onClick={() => { setToggle(!toggle) }}>{props.home}</a>
             </li>
             <li>
-              <a href="#about" onClick={() => { setToggle(!toggle) }}>{props.about}</a>
+              <a href='#about' onClick={() => { setToggle(!toggle) }}>{props.about}</a>
             </li>
             <li>
-              <a href="#project" onClick={() => { setToggle(!toggle) }}>{props.projects}</a>
+              <a href='#project' onClick={() => { setToggle(!toggle) }}>{props.projects}</a>
             </li>
             <li>
-              <a href="#contact" onClick={() => { setToggle(!toggle) }}>{props.contact}</a>
+              <a href='#contact' onClick={() => { setToggle(!toggle) }}>{props.contact}</a>
             </li>
           </ul>
         </div>

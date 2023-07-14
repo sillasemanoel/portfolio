@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import photograp from '../../../assets/images/projects/technicalAssistance.png'
+import photograp from '../../../../public/images/projects/technicalAssistance.png'
 
 export const ProjectStyle = styled.section`
   display: flex;

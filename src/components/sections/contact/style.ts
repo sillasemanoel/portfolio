@@ -38,8 +38,16 @@ export const ContactStyle = styled.section`
     gap: 80px;
   }
 
+  @media (max-width: 1050px) {
+    .icons {
+      align-items: start;
+      flex-direction: column;
+    }
+  }
+
   @media (max-width: 600px) {
     .icons {
+      align-items: center;
       flex-direction: column;
       gap: 60px !important;
     }

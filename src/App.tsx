@@ -61,7 +61,9 @@ function App() {
           "Don't be shy! Hit me up! 👇"}`}
         locationTitle={`${translation ? 'Localização' : 'Location'}`}
         locationText={`${translation ? 'Ereré, Ceará, Brasil' : 'Ereré, Ceará, Brazil'}`}
-        mailTitle={`${translation ? 'E-mail' : 'Mail'}`} />
+        mailTitle={`${translation ? 'E-mail' : 'Mail'}`}
+        curriculumTitle={`${translation ? 'Currículo' : 'Curriculum'}`}
+        curriculumDownload={`${translation ? 'Baixar 🫶💖' : 'Download 🫶💖'}`} />
       <Footer rights={`${translation ?
         'Copyright © 2023. Todos os direitos reservados' :
         'Copyright © 2023. All rights are reserved'}`} />

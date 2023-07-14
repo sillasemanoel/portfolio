@@ -11,19 +11,19 @@ export default function Footer(props: GreetProps) {
     <FooterStyle>
       <div className='limit'>
         <h3>{props.rights}</h3>
-        <div className="socials">
+        <div className='socials'>
           <a
-            title="Linkedin"
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/sillas-emanoel-656478218/">
+            title='Linkedin'
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.linkedin.com/in/sillas-emanoel-656478218/'>
             <BsLinkedin fontSize='21px' />
           </a>
           <a
-            title="GitHub"
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/sillasemanoel">
+            title='GitHub'
+            target='_blank'
+            rel='noreferrer'
+            href='https://github.com/sillasemanoel'>
             <BsGithub fontSize='22px' />
           </a>
         </div>

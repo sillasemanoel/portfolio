@@ -2,7 +2,7 @@ import { HiDocumentText } from 'react-icons/hi'
 
 import { DownloadButtonStyle } from './style'
 
-import pdf from '../../../../public/docs/curriculo.pdf'
+import pdf from '../../../../public/docs/Currículo - Sillas Emanoel Pessoa França.pdf'
 
 type GreetProps = {
   curriculumTitle: string

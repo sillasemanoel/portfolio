@@ -59,6 +59,11 @@ export default function Home(props: GreetProps) {
                   src='https://img.icons8.com/?size=512&id=108784&format=png'
                   alt='skill-icon' />
               </li>
+              <li title='JQuery'>
+                <img
+                  src='https://img.icons8.com/?size=512&id=HKNzD81eiiSc&format=png'
+                  alt='skill-icon' />
+              </li>
               <li title='React'>
                 <img
                   src='https://img.icons8.com/?size=512&id=asWSSTBrDlTW&format=png'

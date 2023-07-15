@@ -2,7 +2,7 @@ import { HiDocumentText } from 'react-icons/hi'
 
 import { DownloadButtonStyle } from './style'
 
-import pdf from '../../../../public/docs/Currículo - Sillas Emanoel Pessoa França.pdf'
+import pdf from '../../../assets/docs/Curriculum - Sillas Emanoel Pessoa França.pdf'
 
 type GreetProps = {
   curriculumTitle: string
@@ -13,7 +13,7 @@ export default function DownloadButton(props: GreetProps) {
   const handleDownload = () => {
     const link = document.createElement('a')
     link.href = pdf
-    link.download = 'Currículo - Sillas Emanoel Pessoa França.pdf'
+    link.download = 'Curriculum - Sillas Emanoel Pessoa França.pdf'
     link.click()
   }
 

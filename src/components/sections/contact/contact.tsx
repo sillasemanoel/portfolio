@@ -1,7 +1,7 @@
 import { FaMapMarkedAlt } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'
 
-import DownloadButton from '../../@microComponents/DownloadButton/DownloadButton'
+import DownloadButton from '../../@minorComponents/DownloadButton/DownloadButton'
 
 import { ContactStyle } from './style'
 

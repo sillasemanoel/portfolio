@@ -11,10 +11,9 @@ type GreetProps = {
 
 export default function DownloadButton(props: GreetProps) {
   const handleDownload = () => {
-    const filename = 'Currículo - Sillas Emanoel Pessoa França.pdf'
     const link = document.createElement('a')
     link.href = pdf
-    link.download = filename
+    link.download = 'Currículo - Sillas Emanoel Pessoa França.pdf'
     link.click()
   }
 

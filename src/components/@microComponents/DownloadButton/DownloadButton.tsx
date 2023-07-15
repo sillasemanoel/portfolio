@@ -2,6 +2,8 @@ import { HiDocumentText } from 'react-icons/hi'
 
 import { DownloadButtonStyle } from './style'
 
+import pdf from '../../../../public/docs/curriculo.pdf'
+
 type GreetProps = {
   curriculumTitle: string
   curriculumDownload: string
@@ -11,7 +13,7 @@ export default function DownloadButton(props: GreetProps) {
   const handleDownload = () => {
     const filename = 'Currículo - Sillas Emanoel Pessoa França.pdf'
     const link = document.createElement('a')
-    link.href = '../../../../public/docs/curriculo.pdf'
+    link.href = pdf
     link.download = filename
     link.click()
   }

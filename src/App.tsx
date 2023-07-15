@@ -49,11 +49,11 @@ function App() {
           'Cada projeto é uma peça única de desenvolvimento 🧩' :
           'Each project is a unique piece of development 🧩'}`}
         gridOneTitle={`${translation ?
-          'Assistência Técnica 👨‍🔧' :
-          'Technical Assistance 👨‍🔧'}`}
+          'Autenticação 🔒' :
+          'Authentication 🔒'}`}
         gridOneText={`${translation ?
-          'Sistema para assistências técnicas, que permite ao encarregado poder cadastrar, consultar e modificar uma ordem de atendimento. O cliente pode acompanhar os status de sua ordem de serviço por meio de seu dispositivo, e quando o reparo estiver concluído tem a escolha de retirar no local ou receber na residência.' :
-          'System for technical assistance, which allows the person in charge to register, consult and modify a service order. The customer can track the status of his service order through his device, and when the repair is complete he has the choice of picking up at the location or receiving at home.'}`} />
+          'Sistema de autenticação, com login, cadastro e esqueci minha senha. O projeto tem validação usando react-hook-form e Zod para mostrar erros, localStorage usado para armazenar os dados do usuário cadastrado e ser usado para o login e esqueci minha senha. Ao fazer login, a tela inicial mostrará os dados do usuário cadastrado.' :
+          'Authentication system, with login, registration and forgot my password. The project has validation using react-hook-form and Zod to show errors, localStorage used to store the registered user data and be used for the login and I forgot my password. When logging in, the home screen will show the data of the registered user.'}`} />
       <Contact
         title={`${translation ? 'Contato' : 'Contact'}`}
         caption={`${translation ?

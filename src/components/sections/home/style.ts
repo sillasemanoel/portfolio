@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import photograp from '../../../../public/images/photographys/eu.jpg'
+import photograp from '../../../../public/images/photographys/sillas.jpg'
 
 export const HomeStyle = styled.section`
   display: flex;

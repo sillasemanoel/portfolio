@@ -63,7 +63,7 @@ function App() {
         locationText={`${translation ? 'Ereré, Ceará, Brasil' : 'Ereré, Ceará, Brazil'}`}
         mailTitle={`${translation ? 'E-mail' : 'Mail'}`}
         curriculumTitle={`${translation ? 'Currículo' : 'Curriculum'}`}
-        curriculumDownload={`${translation ? 'Baixar 🫶💖' : 'Download 🫶💖'}`} />
+        curriculumDownload={`${translation ? 'Baixar 🫶' : 'Download 🫶'}`} />
       <Footer rights={`${translation ?
         'Copyright © 2023. Todos os direitos reservados' :
         'Copyright © 2023. All rights are reserved'}`} />

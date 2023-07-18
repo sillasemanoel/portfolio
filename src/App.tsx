@@ -17,14 +17,8 @@ function App() {
         home={`${translation ? 'Herói' : 'Home'}`}
         about={`${translation ? 'Sobre' : 'About'}`}
         projects={`${translation ? 'Projetos' : 'Projects'}`}
-        contact={`${translation ? 'Contato' : 'Contact'}`}>
-        <div className="translate_switch">
-          <button onClick={() => { setTranslation(!translation) }}>
-            <input type="checkbox" />
-          </button>
-          <p>en / pt</p>
-        </div>
-      </Nav>
+        contact={`${translation ? 'Contato' : 'Contact'}`}
+        onClickTranslate={() => { setTranslation(!translation) }} />
       <Home
         classTitle={`${translation ? 'marginBottomTranslate' : ''}`}
         title={`${translation ?

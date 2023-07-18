@@ -1,6 +1,7 @@
 import { useState } from 'react'
-
 import { CgMenuRight, CgClose } from 'react-icons/cg'
+
+import TranslateSwitch from '../@minorComponents/translateSwitch/translateSwitch'
 
 import { NavStyle, MobileNavStyle } from './style'
 
@@ -9,7 +10,7 @@ type GreetProps = {
   about: string
   projects: string
   contact: string
-  children: React.ReactNode
+  onClickTranslate: () => void
 }
 
 export default function Nav(props: GreetProps) {
@@ -32,7 +33,7 @@ export default function Nav(props: GreetProps) {
             <a href='#contact'>{props.contact}</a>
           </li>
           <li>
-            {props.children}
+            <TranslateSwitch onClickTranslate={props.onClickTranslate} />
           </li>
           <li>
             <CgMenuRight onClick={() => { setToggle(!toggle) }} />

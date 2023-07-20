@@ -38,8 +38,8 @@ export default function Project(props: GreetProps) {
                     <BsGithub fontSize='22px' />
                   </a>
                   <a
-                    // target='_blank'
-                    href='#/underDevelopment'
+                    target='_blank'
+                    href='https://technical-assistance-mocha.vercel.app/'
                     rel='noreferrer'>
                     Live Demo
                     <MdOpenInNew fontSize='22px' />

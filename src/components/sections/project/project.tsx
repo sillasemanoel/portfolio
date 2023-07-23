@@ -1,53 +1,38 @@
+import ProjectsOnTheGrid from '../../@minorComponents/project/project'
+
 import { ProjectStyle } from './style'
 
-import { BsGithub } from 'react-icons/bs'
-import { MdOpenInNew } from 'react-icons/md'
+import technicalAssistance from '../../../../public/images//projects/technicalAssistance.png'
+import zenigmaChallengeFrontEnd from '../../../../public/images//projects/zenigmaChallengeFrontEnd.png'
 
 type GreetProps = {
   title: string
-  caption: string
+  description: string
   gridOneTitle: string
   gridOneText: string
+  gridTwoTitle: string
+  gridTwoText: string
 }
 
 export default function Project(props: GreetProps) {
   return (
     <ProjectStyle id='project'>
       <div className='container'>
-        <p title='Portfolio'>{props.title}</p>
-        <h3>{props.caption}</h3>
+        <p title='Portfolio' className='title'>{props.title}</p>
+        <h3 className='description'>{props.description}</h3>
         <div className='grid'>
-          <div className='project'>
-            <div className='img'></div>
-            <div className='text'>
-              <div>
-                <h3>{props.gridOneTitle}</h3>
-                <p>{props.gridOneText}</p>
-              </div>
-              <div>
-                <div className='stack'>
-                  <p>React</p>
-                  <p>Styled Components</p>
-                </div>
-                <div className='links'>
-                  <a
-                    target='_blank'
-                    href='https://github.com/sillasemanoel/technical_assistance'
-                    rel='noreferrer'>
-                    Code
-                    <BsGithub fontSize='22px' />
-                  </a>
-                  <a
-                    target='_blank'
-                    href='https://technical-assistance-mocha.vercel.app/'
-                    rel='noreferrer'>
-                    Live Demo
-                    <MdOpenInNew fontSize='22px' />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <ProjectsOnTheGrid
+            photo={technicalAssistance}
+            projectsOnTheGridTitle={props.gridOneTitle}
+            projectsOnTheGridText={props.gridOneText}
+            code='https://github.com/sillasemanoel/technical_assistance'
+            liveDemo='https://technical-assistance-mocha.vercel.app/' />
+          <ProjectsOnTheGrid
+            photo={zenigmaChallengeFrontEnd}
+            projectsOnTheGridTitle={props.gridTwoTitle}
+            projectsOnTheGridText={props.gridTwoText}
+            code='https://github.com/sillasemanoel/zenigma-challenge-front-end'
+            liveDemo='https://zenigma-challenge-front-end.vercel.app/' />
         </div>
       </div>
     </ProjectStyle >

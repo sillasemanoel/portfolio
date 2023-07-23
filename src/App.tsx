@@ -9,7 +9,7 @@ import Footer from './components/footer/footer'
 
 function App() {
 
-  const [translation, setTranslation] = useState(false);
+  const [translation, setTranslation] = useState(false)
 
   return (
     <>

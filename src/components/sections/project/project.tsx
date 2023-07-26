@@ -3,7 +3,7 @@ import ProjectsOnTheGrid from '../../@minorComponents/project/project'
 import { ProjectStyle } from './style'
 
 import technicalAssistance from '../../../../public/images//projects/technicalAssistance.png'
-import zenigmaChallengeFrontEnd from '../../../../public/images//projects/zenigmaChallengeFrontEnd.png'
+import taskify from '../../../../public/images//projects/taskify.png'
 
 type GreetProps = {
   title: string
@@ -28,11 +28,11 @@ export default function Project(props: GreetProps) {
             code='https://github.com/sillasemanoel/technical_assistance'
             liveDemo='https://technical-assistance-mocha.vercel.app/' />
           <ProjectsOnTheGrid
-            photo={zenigmaChallengeFrontEnd}
+            photo={taskify}
             projectsOnTheGridTitle={props.gridTwoTitle}
             projectsOnTheGridText={props.gridTwoText}
-            code='https://github.com/sillasemanoel/zenigma-challenge-front-end'
-            liveDemo='https://zenigma-challenge-front-end.vercel.app/' />
+            code='https://github.com/sillasemanoel/taskify'
+            liveDemo='https://taskify-psi.vercel.app/' />
         </div>
       </div>
     </ProjectStyle >

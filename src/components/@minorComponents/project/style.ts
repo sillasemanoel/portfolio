@@ -49,7 +49,7 @@ export const ProjectsOnTheGridStyle = styled.div`
   .text h3 {
     color: #2d2e32;
     font-size: 17px;
-    margin-bottom: 22px;
+    margin-bottom: 8px;
     position: relative;
     text-transform: uppercase;
   }
@@ -87,7 +87,7 @@ export const ProjectsOnTheGridStyle = styled.div`
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-top: 30px;
+    margin-top: 8px;
   }
 
   .links a {

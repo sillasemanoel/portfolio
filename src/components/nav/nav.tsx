@@ -1,8 +1,9 @@
+// Dependencies
 import { useState } from 'react'
 import { CgMenuRight, CgClose } from 'react-icons/cg'
-
+// Components
 import TranslateSwitch from '../@minorComponents/translateSwitch/translateSwitch'
-
+// Styles
 import { NavStyle, MobileNavStyle } from './style'
 
 type GreetProps = {

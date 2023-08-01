@@ -1,5 +1,6 @@
+// Dependencies
 import { AboutStyle } from './style'
-
+// Images
 import work from '../../../../public/images/photographys/work.png'
 import emojiWork from '../../../../public/images/emojis/emojiWork.png'
 import developer from '../../../../public/images/svg/developer.svg'

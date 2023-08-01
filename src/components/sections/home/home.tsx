@@ -1,7 +1,8 @@
+// Dependencies
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
-
+// Styles
 import { HomeStyle } from './style'
-
+// Images
 import hand from '../../../../public/images/emojis/emojiHi.png'
 
 type GreetProps = {

@@ -1,5 +1,6 @@
+// Dependencies
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
-
+// Styles
 import { FooterStyle } from './style'
 
 type GreetProps = {

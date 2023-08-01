@@ -1,5 +1,6 @@
+// Dependencies
 import { useState } from 'react'
-
+// Components
 import Nav from './components/nav/nav'
 import Home from './components/sections/home/home'
 import About from './components/sections/about/about'
@@ -43,15 +44,9 @@ function App() {
           'Cada projeto é uma peça única de desenvolvimento 🧩' :
           'Each project is a unique piece of development 🧩'}`}
         gridOneTitle={`${translation ?
-          'Autenticação 🔒' :
-          'Authentication 🔒'}`}
-        gridOneText={`${translation ?
-          'Sistema de autenticação, com login, cadastro e esqueci minha senha. O projeto tem validação usando react-hook-form e Zod para mostrar erros, localStorage usado para armazenar os dados do usuário cadastrado e ser usado para o login e esqueci minha senha. Ao fazer login, a tela inicial mostrará os dados do usuário cadastrado.' :
-          'Authentication system, with login, registration and forgot my password. The project has validation using react-hook-form and Zod to show errors, localStorage used to store the registered user data and be used for the login and I forgot my password. When logging in, the home screen will show the data of the registered user.'}`}
-        gridTwoTitle={`${translation ?
           'Taskify 📜' :
           'Taskify 📜'}`}
-        gridTwoText={`${translation ?
+        gridOneText={`${translation ?
           'Taskify é um sistema de anotações simples e intuitivo, projetado para criar, arquivar e excluir notas. Com foco na praticidade, os usuários podem facilmente registrar e gerenciar suas anotações, garantindo uma organização eficiente das informações importantes. Ideal para lembrar tarefas e manter-se organizado de maneira descomplicada.' :
           'Taskify is a simple and intuitive note-taking system designed to create, archive, and delete notes. With a focus on practicality, users can easily record and manage their notes, ensuring efficient organization of important information. Ideal for remembering tasks and staying organized in an uncomplicated way.'}`} />
       <Contact

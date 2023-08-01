@@ -1,8 +1,9 @@
+// Dependencies
 import { FaMapMarkedAlt } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'
-
+// Components
 import DownloadButton from '../../@minorComponents/downloadButton/downloadButton'
-
+// Styles
 import { ContactStyle } from './style'
 
 type GreetProps = {

@@ -28,7 +28,7 @@ function App() {
         hand={`${translation ? 'pt_hand' : ''}`}
         description={`${translation ?
           'Olá, sou Sillas Emanoel. Um apaixonado Desenvolvedor Front-end React baseado em Ereré, Ceará, Brasil.📍' :
-          "Hi, I'm Sillas Emanoel.A passionate Front-end React Developer based in Ereré, Ceará, Brazil.📍"}`}
+          "Hi, I'm Sillas Emanoel. A passionate Front-end React Developer based in Ereré, Ceará, Brazil.📍"}`}
         stack={`${translation ? 'Tecnologias' : 'Tech Stack'}`} />
       <About
         title={`${translation ? 'Sobre Mim' : 'About me'}`}

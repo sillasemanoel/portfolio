@@ -1,8 +1,8 @@
-import { TranslateSwitchStyle } from './style'
+import { TranslateSwitchStyle } from "./style";
 
 type GreetProps = {
-  onClickTranslate: () => void
-}
+  onClickTranslate: () => void;
+};
 
 export default function TranslateSwitch(props: GreetProps) {
   return (
@@ -12,5 +12,5 @@ export default function TranslateSwitch(props: GreetProps) {
       </button>
       <p>en / pt</p>
     </TranslateSwitchStyle>
-  )
+  );
 }

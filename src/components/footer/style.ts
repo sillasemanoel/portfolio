@@ -1,12 +1,12 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const FooterStyle = styled.footer`
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 50px 40px;
-    box-sizing: border-box;
-    background-color: #2d2e32;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  background-color: #2d2e32;
 
   .limit {
     width: 100%;
@@ -39,4 +39,4 @@ export const FooterStyle = styled.footer`
       gap: 16px;
     }
   }
-`
+`;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ContactStyle = styled.section`
   background-color: #fff;
@@ -76,7 +76,7 @@ export const ContactStyle = styled.section`
     background-color: #fff;
     color: #615cfb;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   .info {
@@ -97,4 +97,4 @@ export const ContactStyle = styled.section`
     font-size: 17px;
     text-decoration: none;
   }
-`
+`;

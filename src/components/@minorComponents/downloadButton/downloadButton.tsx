@@ -1,31 +1,31 @@
-import { HiDocumentText } from 'react-icons/hi'
+import { HiDocumentText } from "react-icons/hi";
 
-import { DownloadButtonStyle } from './style'
+import { DownloadButtonStyle } from "./style";
 
-import pdf from '../../../assets/docs/Curriculum - Sillas Emanoel Pessoa França.pdf'
+import pdf from "../../../assets/docs/Curriculum - Sillas Emanoel Pessoa França.pdf";
 
 type GreetProps = {
-  curriculumTitle: string
-  curriculumDownload: string
-}
+  curriculumTitle: string;
+  curriculumDownload: string;
+};
 
 export default function DownloadButton(props: GreetProps) {
   const handleDownload = () => {
-    const link = document.createElement('a')
-    link.href = pdf
-    link.download = 'Curriculum - Sillas Emanoel Pessoa França.pdf'
-    link.click()
-  }
+    const link = document.createElement("a");
+    link.href = pdf;
+    link.download = "Curriculum - Sillas Emanoel Pessoa França.pdf";
+    link.click();
+  };
 
   return (
     <DownloadButtonStyle>
       <span>
-        <HiDocumentText fontSize='35px' />
+        <HiDocumentText fontSize="35px" />
       </span>
-      <div className='info'>
+      <div className="info">
         <h3>{props.curriculumTitle}</h3>
         <button onClick={handleDownload}>{props.curriculumDownload}</button>
       </div>
     </DownloadButtonStyle>
-  )
+  );
 }

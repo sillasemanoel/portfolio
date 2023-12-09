@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const TranslateSwitchStyle = styled.div`
   display: flex;
@@ -13,7 +13,7 @@ export const TranslateSwitchStyle = styled.div`
     border-radius: 10px;
   }
 
-  input{
+  input {
     margin: 0;
     -webkit-appearance: none;
     appearance: none;
@@ -25,12 +25,12 @@ export const TranslateSwitchStyle = styled.div`
     cursor: pointer;
   }
 
-  input:focus{
+  input:focus {
     outline: none;
   }
 
-  input:before{
-    content: '';
+  input:before {
+    content: "";
     margin-top: -2.5px;
     display: block;
     width: 20px;
@@ -38,37 +38,37 @@ export const TranslateSwitchStyle = styled.div`
     background-color: white;
     border: 2px solid #535458;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     position: absolute;
     left: 0;
-    transition: left .3s ease-out;
-    -webkit-transition: left .3s ease-out;
+    transition: left 0.3s ease-out;
+    -webkit-transition: left 0.3s ease-out;
     text-align: center;
     color: #535458;
   }
 
-  input:after{
+  input:after {
     display: block;
     margin-top: -2.5px;
     left: 20px;
     position: absolute;
     font-size: 14px;
     font-weight: bold;
-    transition: left .3s ease-out;
-    -webkit-transition: left .3s ease-out;
+    transition: left 0.3s ease-out;
+    -webkit-transition: left 0.3s ease-out;
     color: #666;
   }
 
-  input:checked{
+  input:checked {
     background-color: #535458;
   }
 
-  input:checked:before{
+  input:checked:before {
     left: 22.5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   }
 
-  input:checked:after{
+  input:checked:after {
     left: 43.5px;
     color: #535458;
   }
@@ -77,4 +77,4 @@ export const TranslateSwitchStyle = styled.div`
     font-size: 12px;
     user-select: none;
   }
-`
+`;

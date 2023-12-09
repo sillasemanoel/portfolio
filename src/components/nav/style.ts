@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const NavStyle = styled.nav`
   width: 100%;
@@ -9,7 +9,7 @@ export const NavStyle = styled.nav`
   background-color: #fff;
   padding: 20px 40px 20px 50px;
   box-sizing: border-box;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   z-index: 100;
 
   h3 {
@@ -60,7 +60,7 @@ export const NavStyle = styled.nav`
       display: flex !important;
     }
   }
-`
+`;
 
 export const MobileNavStyle = styled.div`
   div {
@@ -71,7 +71,7 @@ export const MobileNavStyle = styled.div`
     justify-content: center;
     align-items: center;
     z-index: 200;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 
   .open_menu {
@@ -114,4 +114,4 @@ export const MobileNavStyle = styled.div`
   ul li a:hover {
     color: #615cfb;
   }
-`
+`;

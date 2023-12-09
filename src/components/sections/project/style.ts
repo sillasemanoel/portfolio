@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ProjectStyle = styled.section`
   display: flex;
@@ -43,4 +43,4 @@ export const ProjectStyle = styled.section`
     gap: 40px;
     width: 100%;
   }
-`
+`;

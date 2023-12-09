@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ProjectsOnTheGridStyle = styled.div`
   padding: 19px;
@@ -9,7 +9,7 @@ export const ProjectsOnTheGridStyle = styled.div`
   gap: 40px;
   background-color: #fff;
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 1080px) {
     max-width: 420px;
@@ -20,9 +20,9 @@ export const ProjectsOnTheGridStyle = styled.div`
   .img {
     width: 100%;
     height: auto;
-    background-color: hsla(0, 0%, 46%, .2);
+    background-color: hsla(0, 0%, 46%, 0.2);
     border-radius: 16px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -43,7 +43,6 @@ export const ProjectsOnTheGridStyle = styled.div`
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-
   }
 
   .text h3 {
@@ -74,9 +73,9 @@ export const ProjectsOnTheGridStyle = styled.div`
     display: flex;
     align-items: center;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #000 !important;
-    font-family: 'Mulish', sans-serif !important;
+    font-family: "Mulish", sans-serif !important;
     font-weight: 800 !important;
     padding: 10px 12px;
     cursor: pointer;
@@ -104,4 +103,4 @@ export const ProjectsOnTheGridStyle = styled.div`
   .links a:hover {
     color: #615cfb;
   }
-`
+`;

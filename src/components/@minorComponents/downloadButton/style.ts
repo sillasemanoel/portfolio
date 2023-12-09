@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const DownloadButtonStyle = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ export const DownloadButtonStyle = styled.div`
     background-color: #fff;
     color: #615cfb;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   .info {
@@ -51,4 +51,4 @@ export const DownloadButtonStyle = styled.div`
     background: transparent;
     border: 0;
   }
-`
+`;

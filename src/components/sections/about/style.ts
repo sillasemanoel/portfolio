@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const AboutStyle = styled.section`
   background-color: #fff;
@@ -113,9 +113,9 @@ export const AboutStyle = styled.section`
 
   .text p {
     color: #767676;
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 1.5;
   }
-`
+`;

@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-import photograp from '../../../../public/images/photographys/sillas.jpg'
+import photograp from "../../../../public/images/photographys/sillas.jpg";
 
 export const HomeStyle = styled.section`
   display: flex;
@@ -100,7 +100,6 @@ export const HomeStyle = styled.section`
     }
   }
 
-
   @media (max-width: 900px) {
     .main div img {
       right: 10px;
@@ -109,7 +108,7 @@ export const HomeStyle = styled.section`
 
   .main div p {
     color: #555;
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.6;
@@ -193,13 +192,13 @@ export const HomeStyle = styled.section`
   }
 
   .skills p {
-    font-family: 'Mulish', sans-serif;
+    font-family: "Mulish", sans-serif;
     font-size: 17px;
     font-weight: 700;
     color: #2d2e32;
     margin-right: 40px;
     padding-right: 16px;
-    border-right: 2px solid rgba(45, 46, 50, .5);
+    border-right: 2px solid rgba(45, 46, 50, 0.5);
     text-align: center;
   }
 
@@ -210,7 +209,7 @@ export const HomeStyle = styled.section`
       padding-bottom: 10px;
       padding-right: 0;
       border-right: 0 !important;
-      border-bottom: 2px solid rgba(45, 46, 50, .5);
+      border-bottom: 2px solid rgba(45, 46, 50, 0.5);
     }
   }
 
@@ -235,7 +234,7 @@ export const HomeStyle = styled.section`
     justify-content: center;
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     width: 65px;
     height: 65px;
     cursor: pointer;
@@ -245,4 +244,4 @@ export const HomeStyle = styled.section`
     height: 35px;
     width: 35px;
   }
-`
+`;

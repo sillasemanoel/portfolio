@@ -33,7 +33,7 @@ function App() {
         description={`${
           translation
             ? "Olá, sou Sillas Emanoel. Um apaixonado Desenvolvedor Front-end React baseado em Ereré, Ceará, Brasil.📍"
-            : "Hi, I'm Sillas Emanoel.A passionate Front-end React Developer based in Ereré, Ceará, Brazil.📍"
+            : "Hi, I'm Sillas Emanoel. A passionate Front-end React Developer based in Ereré, Ceará, Brazil.📍"
         }`}
         stack={`${translation ? "Tecnologias" : "Tech Stack"}`}
       />

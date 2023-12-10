@@ -1,15 +1,10 @@
-// Dependencies
-import ProjectsOnTheGrid from "../../@minorComponents/project/project";
 // Components
 import { ProjectStyle } from "./style";
-// Images
-import taskify from "../../../../public/images//projects/taskify.png";
 
 type GreetProps = {
   title: string;
   description: string;
-  gridOneTitle: string;
-  gridOneText: string;
+  children: React.ReactNode;
 };
 
 export default function Project(props: GreetProps) {
@@ -20,15 +15,7 @@ export default function Project(props: GreetProps) {
           {props.title}
         </p>
         <h3 className="description">{props.description}</h3>
-        <div className="grid">
-          <ProjectsOnTheGrid
-            photo={taskify}
-            projectsOnTheGridTitle={props.gridOneTitle}
-            projectsOnTheGridText={props.gridOneText}
-            code="https://github.com/sillasemanoel/taskify"
-            liveDemo="https://taskify-psi.vercel.app/"
-          />
-        </div>
+        <div className="grid">{props.children}</div>
       </div>
     </ProjectStyle>
   );

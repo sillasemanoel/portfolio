@@ -7,6 +7,8 @@ type GreetProps = {
   photo: string;
   projectsOnTheGridTitle: string;
   projectsOnTheGridText: string;
+  stackOne: string;
+  stackTwo: string;
   code: string;
   liveDemo: string;
 };
@@ -14,10 +16,13 @@ type GreetProps = {
 export default function ProjectsOnTheGrid(props: GreetProps) {
   return (
     <ProjectsOnTheGridStyle>
-      <div
+      <a
         style={{ backgroundImage: `url(${props.photo})` }}
+        target="_blank"
+        href={props.liveDemo}
+        rel="noreferrer"
         className="img"
-      ></div>
+      ></a>
       <div className="text">
         <div>
           <h3>{props.projectsOnTheGridTitle}</h3>
@@ -25,8 +30,8 @@ export default function ProjectsOnTheGrid(props: GreetProps) {
         </div>
         <div>
           <div className="stack">
-            <p>React</p>
-            <p>Styled Components</p>
+            <p>{props.stackOne}</p>
+            <p>{props.stackTwo}</p>
           </div>
           <div className="links">
             <a target="_blank" href={props.code} rel="noreferrer">

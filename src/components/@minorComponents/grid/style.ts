@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjectsOnTheGridStyle = styled.div`
   padding: 19px;
   width: 100%;
-  height: 350px;
+  height: 300px;
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -19,7 +19,7 @@ export const ProjectsOnTheGridStyle = styled.div`
 
   .img {
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: hsla(0, 0%, 46%, 0.2);
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -37,7 +37,7 @@ export const ProjectsOnTheGridStyle = styled.div`
 
   .text {
     width: 100%;
-    max-width: 455px;
+    max-width: 400px;
     height: auto;
     display: flex;
     flex-direction: column;

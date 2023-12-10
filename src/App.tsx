@@ -7,6 +7,10 @@ import About from "./components/sections/about/about";
 import Project from "./components/sections/project/project";
 import Contact from "./components/sections/contact/contact";
 import Footer from "./components/footer/footer";
+import ProjectsOnTheGrid from "./components/@minorComponents/grid/grid";
+// Images
+import supportwise from "../public/images/projects/supportwise.png";
+import devlinks from "../public/images/projects/devlinks.png";
 
 function App() {
   const [translation, setTranslation] = useState(false);
@@ -46,24 +50,51 @@ function App() {
         }`}
         text={`${
           translation
-            ? "Como Desenvolvedor Front-End, possuo um impressionante arsenal de habilidades em HTML, CSS, JavaScript, JQuery, React, TypeScript, Styled Components, Tailwind e SCSS. Sou excelente em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila. Minha experiência reside na criação de interfaces dinâmicas e envolventes por meio da escrita de código limpo e otimizado e da utilização de ferramentas e técnicas de desenvolvimento de ponta. Também sou um jogador de equipe que prospera em colaborar com equipes multifuncionais para produzir excelentes aplicativos da web."
-            : "As a Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, JQuery, React, TypeScript, Styled Components, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications."
+            ? "Como Desenvolvedor Front-End, possuo um impressionante arsenal de habilidades em HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS e MySQL. Sou excelente em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila. Minha experiência reside na criação de interfaces dinâmicas e envolventes por meio da escrita de código limpo e otimizado e da utilização de ferramentas e técnicas de desenvolvimento de ponta. Também sou um jogador de equipe que prospera em colaborar com equipes multifuncionais para produzir excelentes aplicativos da web."
+            : "As a Front-End Developer, I have an impressive arsenal of skills in HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS and MySQL. I excel at designing and maintaining responsive websites that deliver a user-friendly experience quiet. My expertise lies in creating dynamic and engaging interfaces by writing clean, optimized code and utilizing cutting-edge development tools and techniques. I'm also a team player who thrives on collaborating with cross-functional teams to produce great web applications."
         }`}
       />
       <Project
-        title={`${translation ? "Portfólio" : "Portfolio"}`}
+        title={`${translation ? "PORTFÓLIO" : "PORTFOLIO"}`}
         description={`${
           translation
             ? "Cada projeto é uma peça única de desenvolvimento 🧩"
             : "Each project is a unique piece of development 🧩"
         }`}
-        gridOneTitle={`${translation ? "Taskify 📜" : "Taskify 📜"}`}
-        gridOneText={`${
-          translation
-            ? "Taskify é um sistema de anotações simples e intuitivo, projetado para criar, arquivar e excluir notas. Com foco na praticidade, os usuários podem facilmente registrar e gerenciar suas anotações, garantindo uma organização eficiente das informações importantes. Ideal para lembrar tarefas e manter-se organizado de maneira descomplicada."
-            : "Taskify is a simple and intuitive note-taking system designed to create, archive, and delete notes. With a focus on practicality, users can easily record and manage their notes, ensuring efficient organization of important information. Ideal for remembering tasks and staying organized in an uncomplicated way."
-        }`}
-      />
+      >
+        <ProjectsOnTheGrid
+          photo={supportwise}
+          projectsOnTheGridTitle={`${
+            translation
+              ? "Ola, sou a Supportwise! ⚡"
+              : "Hello, I'm Supportwise! ⚡"
+          }`}
+          projectsOnTheGridText={`${
+            translation
+              ? "Com o Supportwise, não se trata apenas de organizar. Agora, você pode acompanhar o status de cada reparo de forma transparente. Desde a recepção do produto até a entrega final, tenha controle total e forneça atualizações em tempo real aos seus clientes."
+              : "With Supportwise, it's not just about organizing. Now, you can track the status of each repair transparently. From product reception to final delivery, have full control and provide real-time updates to your customers."
+          }`}
+          stackOne="React"
+          stackTwo="Styled Components"
+          code="https://github.com/sillasemanoel/supportwise"
+          liveDemo="https://supportwise.vercel.app/"
+        />
+        <ProjectsOnTheGrid
+          photo={devlinks}
+          projectsOnTheGridTitle={`${
+            translation ? "Devlinks 👆" : "Devlinks 👆"
+          }`}
+          projectsOnTheGridText={`${
+            translation
+              ? "Devlinks é a ferramenta ideal para centralizar todos os seus contatos online. Desenvolvido para praticidade, permite agrupar seus links essenciais em um único lugar, proporcionando uma experiência de navegação intuitiva."
+              : "Devlinks is the ideal tool to centralize all your online contacts. Developed for convenience, it allows you to group your essential links in one place, providing an intuitive browsing experience."
+          }`}
+          stackOne="HTML"
+          stackTwo="JavaScript"
+          code="https://github.com/sillasemanoel/devlinks"
+          liveDemo="https://devlinks-gules.vercel.app"
+        />
+      </Project>
       <Contact
         title={`${translation ? "Contato" : "Contact"}`}
         caption={`${

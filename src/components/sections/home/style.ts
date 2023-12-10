@@ -16,7 +16,7 @@ export const HomeStyle = styled.section`
   }
 
   .container {
-    max-width: 1000px;
+    max-width: 1160px;
     width: 100%;
     height: auto;
     display: flex;
@@ -28,8 +28,9 @@ export const HomeStyle = styled.section`
 
   .main {
     display: flex;
+    gap: 5%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   @media (max-width: 900px) {
@@ -184,7 +185,7 @@ export const HomeStyle = styled.section`
     text-align: center;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1180px) {
     .skills {
       flex-direction: column;
       margin-top: 40px !important;
@@ -202,7 +203,7 @@ export const HomeStyle = styled.section`
     text-align: center;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 1180px) {
     .skills p {
       margin-bottom: 29px;
       margin-right: 0 !important;

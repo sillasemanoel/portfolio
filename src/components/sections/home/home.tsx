@@ -65,6 +65,12 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
+              <li title="TypeScript">
+                <img
+                  src="https://img.icons8.com/?size=512&id=uJM6fQYqDaZK&format=png"
+                  alt="skill-icon"
+                />
+              </li>
               <li title="JQuery">
                 <img
                   src="https://img.icons8.com/?size=512&id=HKNzD81eiiSc&format=png"
@@ -77,9 +83,9 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
-              <li title="TypeScript">
+              <li title="NodeJS">
                 <img
-                  src="https://img.icons8.com/?size=512&id=uJM6fQYqDaZK&format=png"
+                  src="https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png"
                   alt="skill-icon"
                 />
               </li>
@@ -98,6 +104,12 @@ export default function Home(props: GreetProps) {
               <li title="SCSS">
                 <img
                   src="https://camo.githubusercontent.com/e178195a8a6c6a158edf13f7a452039b7d8e675024acc5168d661c2a298b7eba/68747470733a2f2f696d672e69636f6e73382e636f6d2f3f73697a653d3531322669643d76456955385565416d76307826666f726d61743d706e67"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="MySQL">
+                <img
+                  src="https://img.icons8.com/?size=80&id=rgPSE6nAB766&format=png"
                   alt="skill-icon"
                 />
               </li>

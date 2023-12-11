@@ -1,4 +1,4 @@
-// Components
+// Styles
 import { ProjectStyle } from "./style";
 
 type GreetProps = {

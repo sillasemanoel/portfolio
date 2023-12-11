@@ -1,8 +1,9 @@
+// Dependencies
 import { HiDocumentText } from "react-icons/hi";
-
-import { DownloadButtonStyle } from "./style";
-
+// Components
 import pdf from "../../../assets/docs/Curriculum - Sillas Emanoel Pessoa França.pdf";
+// Styles
+import { DownloadButtonStyle } from "./style";
 
 type GreetProps = {
   curriculumTitle: string;

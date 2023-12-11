@@ -10,6 +10,7 @@ import Footer from "./components/footer/footer";
 import ProjectsOnTheGrid from "./components/@minorComponents/grid/grid";
 // Images
 import supportwise from "../public/images/projects/supportwise.png";
+import taskify from "../public/images/projects/taskify.png";
 import devlinks from "../public/images/projects/devlinks.png";
 
 function App() {
@@ -74,10 +75,25 @@ function App() {
               ? "Com o Supportwise, não se trata apenas de organizar. Agora, você pode acompanhar o status de cada reparo de forma transparente. Desde a recepção do produto até a entrega final, tenha controle total e forneça atualizações em tempo real aos seus clientes."
               : "With Supportwise, it's not just about organizing. Now, you can track the status of each repair transparently. From product reception to final delivery, have full control and provide real-time updates to your customers."
           }`}
-          stackOne="React"
-          stackTwo="Styled Components"
+          stackOne="React y Styled Components"
+          stackTwo="localStorage"
           code="https://github.com/sillasemanoel/supportwise"
           liveDemo="https://supportwise.vercel.app/"
+        />
+        <ProjectsOnTheGrid
+          photo={taskify}
+          projectsOnTheGridTitle={`${
+            translation ? "Taskify 📝" : "Taskify 📝"
+          }`}
+          projectsOnTheGridText={`${
+            translation
+              ? "Taskify, sistema simples para criar, arquivar e excluir notas. Focado na praticidade, permite registrar e gerenciar anotações facilmente, ideal para lembrar tarefas e manter organização descomplicada."
+              : "Taskify, simple system for creating, archiving and deleting notes. Focused on practicality, it allows you to easily record and manage notes, ideal for remembering tasks and maintaining uncomplicated organization."
+          }`}
+          stackOne="React y Styled Components"
+          stackTwo="localStorage"
+          code="https://github.com/sillasemanoel/taskify"
+          liveDemo="https://taskify-psi.vercel.app"
         />
         <ProjectsOnTheGrid
           photo={devlinks}

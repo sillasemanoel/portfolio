@@ -1,6 +1,7 @@
+// Dependencies
 import { BsGithub } from "react-icons/bs";
 import { MdOpenInNew } from "react-icons/md";
-
+// Styles
 import { ProjectsOnTheGridStyle } from "./style";
 
 type GreetProps = {

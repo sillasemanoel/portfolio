@@ -1,3 +1,4 @@
+// Styles
 import { TranslateSwitchStyle } from "./style";
 
 type GreetProps = {

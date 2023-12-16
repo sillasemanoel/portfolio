@@ -31,14 +31,14 @@ function App() {
         classTitle={`${translation ? "marginBottomTranslate" : ""}`}
         title={`${
           translation
-            ? "Desenvolvedor Front-End React"
-            : "Front-End React Developer"
+            ? "Desenvolvedor Full-Stack JS"
+            : "Full-Stack JS Developer"
         }`}
         hand={`${translation ? "pt_hand" : ""}`}
         description={`${
           translation
-            ? "Olá, sou Sillas Emanoel. Um apaixonado Desenvolvedor Front-end React baseado em Ereré, Ceará, Brasil.📍"
-            : "Hi, I'm Sillas Emanoel. A passionate Front-end React Developer based in Ereré, Ceará, Brazil.📍"
+            ? "Olá, sou Sillas Emanoel. Um apaixonado Desenvolvedor Full-Stack JavaScript baseado em Ereré, Ceará, Brasil.📍"
+            : "Hi, I'm Sillas Emanoel. A passionate Full-Stack JavaScript Developer based in Ereré, Ceará, Brazil.📍"
         }`}
         stack={`${translation ? "Tecnologias" : "Tech Stack"}`}
       />
@@ -46,13 +46,13 @@ function App() {
         title={`${translation ? "Sobre Mim" : "About me"}`}
         caption={`${
           translation
-            ? "Um Desenvolvedor Front-end dedicado baseado em Ereré, Ceará, Brasil 📍"
-            : "A dedicated Front-end Developer based in Ereré, Ceará, Brazil 📍"
+            ? "Um Desenvolvedor Full-Stack dedicado baseado em Ereré, Ceará, Brasil 📍"
+            : "A dedicated Full-Stack Developer based in Ereré, Ceará, Brazil 📍"
         }`}
         text={`${
           translation
-            ? "Como Desenvolvedor Front-End, possuo um impressionante arsenal de habilidades em HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS e MySQL. Sou excelente em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila. Minha experiência reside na criação de interfaces dinâmicas e envolventes por meio da escrita de código limpo e otimizado e da utilização de ferramentas e técnicas de desenvolvimento de ponta. Também sou um jogador de equipe que prospera em colaborar com equipes multifuncionais para produzir excelentes aplicativos da web."
-            : "As a Front-End Developer, I have an impressive arsenal of skills in HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS and MySQL. I excel at designing and maintaining responsive websites that deliver a user-friendly experience quiet. My expertise lies in creating dynamic and engaging interfaces by writing clean, optimized code and utilizing cutting-edge development tools and techniques. I'm also a team player who thrives on collaborating with cross-functional teams to produce great web applications."
+            ? "Como Desenvolvedor Full-Stack, possuo um impressionante arsenal de habilidades em HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS e MySQL. Sou excelente em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila. Minha experiência reside na criação de interfaces dinâmicas e envolventes por meio da escrita de código limpo e otimizado e da utilização de ferramentas e técnicas de desenvolvimento de ponta. Também sou um jogador de equipe que prospera em colaborar com equipes multifuncionais para produzir excelentes aplicativos da web."
+            : "As a Full-Stack Developer, I have an impressive arsenal of skills in HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS and MySQL. I excel at designing and maintaining responsive websites that deliver a user-friendly experience quiet. My expertise lies in creating dynamic and engaging interfaces by writing clean, optimized code and utilizing cutting-edge development tools and techniques. I'm also a team player who thrives on collaborating with cross-functional teams to produce great web applications."
         }`}
       />
       <Project

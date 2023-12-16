@@ -59,7 +59,7 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
-              <li title="Java Script">
+              <li title="JavaScript">
                 <img
                   src="https://img.icons8.com/?size=512&id=108784&format=png"
                   alt="skill-icon"

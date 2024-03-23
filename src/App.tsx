@@ -5,9 +5,9 @@ import Nav from "./components/nav/nav";
 import Home from "./components/sections/home/home";
 import About from "./components/sections/about/about";
 import Project from "./components/sections/project/project";
+import ProjectsOnTheGrid from "./components/@minorComponents/grid/grid";
 import Contact from "./components/sections/contact/contact";
 import Footer from "./components/footer/footer";
-import ProjectsOnTheGrid from "./components/@minorComponents/grid/grid";
 // Images
 import supportwise from "../public/images/projects/supportwise.png";
 import taskify from "../public/images/projects/taskify.png";
@@ -30,15 +30,13 @@ function App() {
       <Home
         classTitle={`${translation ? "marginBottomTranslate" : ""}`}
         title={`${
-          translation
-            ? "Desenvolvedor Full-Stack JS"
-            : "Full-Stack JS Developer"
+          translation ? "Desenvolvedor Front-End JS" : "Front-End JS Developer"
         }`}
         hand={`${translation ? "pt_hand" : ""}`}
         description={`${
           translation
-            ? "Olá, sou Sillas Emanoel. Um apaixonado Desenvolvedor Full-Stack JavaScript baseado em Ereré, Ceará, Brasil.📍"
-            : "Hi, I'm Sillas Emanoel. A passionate Full-Stack JavaScript Developer based in Ereré, Ceará, Brazil.📍"
+            ? "Olá, sou Sillas Emanoel. Um apaixonado Desenvolvedor Front-End JavaScript baseado em Ereré, Ceará, Brasil.📍"
+            : "Hi, I'm Sillas Emanoel. A passionate Front-End JavaScript Developer based in Ereré, Ceará, Brazil.📍"
         }`}
         stack={`${translation ? "Tecnologias" : "Tech Stack"}`}
       />
@@ -46,13 +44,13 @@ function App() {
         title={`${translation ? "Sobre Mim" : "About me"}`}
         caption={`${
           translation
-            ? "Um Desenvolvedor Full-Stack dedicado baseado em Ereré, Ceará, Brasil 📍"
-            : "A dedicated Full-Stack Developer based in Ereré, Ceará, Brazil 📍"
+            ? "Um Desenvolvedor Front-End dedicado baseado em Ereré, Ceará, Brasil 📍"
+            : "A dedicated Front-End Developer based in Ereré, Ceará, Brazil 📍"
         }`}
         text={`${
           translation
-            ? "Como Desenvolvedor Full-Stack, possuo um impressionante arsenal de habilidades em HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS e MySQL. Sou excelente em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila. Minha experiência reside na criação de interfaces dinâmicas e envolventes por meio da escrita de código limpo e otimizado e da utilização de ferramentas e técnicas de desenvolvimento de ponta. Também sou um jogador de equipe que prospera em colaborar com equipes multifuncionais para produzir excelentes aplicativos da web."
-            : "As a Full-Stack Developer, I have an impressive arsenal of skills in HTML, CSS, JavaScript, TypeScript, JQuery, React, NodeJS, Styled Components, Tailwind, SCSS and MySQL. I excel at designing and maintaining responsive websites that deliver a user-friendly experience quiet. My expertise lies in creating dynamic and engaging interfaces by writing clean, optimized code and utilizing cutting-edge development tools and techniques. I'm also a team player who thrives on collaborating with cross-functional teams to produce great web applications."
+            ? "Como Desenvolvedor Front-End, possuo um impressionante arsenal de habilidades em HTML, CSS, JavaScript, JQuery, TypeScript, React, NodeJS, Styled Components, Tailwind CSS, SCSS/SASS e MySQL. Sou excelente em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila. Minha experiência reside na criação de interfaces dinâmicas e envolventes por meio da escrita de código limpo e otimizado e da utilização de ferramentas e técnicas de desenvolvimento de ponta. Também sou um jogador de equipe que prospera em colaborar com equipes multifuncionais para produzir excelentes aplicativos da web."
+            : "As a Front-End Developer, I have an impressive arsenal of skills in HTML, CSS, JavaScript, JQuery, TypeScript, React, NodeJS, Styled Components, Tailwind CSS, SCSS/SASS and MySQL. I excel at designing and maintaining responsive websites that deliver a user-friendly experience quiet. My expertise lies in creating dynamic and engaging interfaces by writing clean, optimized code and utilizing cutting-edge development tools and techniques. I'm also a team player who thrives on collaborating with cross-functional teams to produce great web applications."
         }`}
       />
       <Project
@@ -72,10 +70,10 @@ function App() {
           }`}
           projectsOnTheGridText={`${
             translation
-              ? "Com o Supportwise, não se trata apenas de organizar. Agora, você pode acompanhar o status de cada reparo de forma transparente. Desde a recepção do produto até a entrega final, tenha controle total e forneça atualizações em tempo real aos seus clientes."
-              : "With Supportwise, it's not just about organizing. Now, you can track the status of each repair transparently. From product reception to final delivery, have full control and provide real-time updates to your customers."
+              ? "Com o Supportwise, não se trata apenas de organizar. Agora, você pode fornecer o status de cada reparo de forma transparente. Desde a recepção do produto até a entrega final, tenha controle total e forneça atualizações em tempo real aos seus clientes."
+              : "With Supportwise, it's not just about organizing. Now, you can provide the status of each repair transparently. From product receipt to final delivery, have full control and provide real-time updates to your customers."
           }`}
-          stackOne="React y Styled Components"
+          stackOne="React"
           stackTwo="localStorage"
           code="https://github.com/sillasemanoel/supportwise"
           liveDemo="https://supportwise.vercel.app/"
@@ -90,7 +88,7 @@ function App() {
               ? "Taskify, sistema simples para criar, arquivar e excluir notas. Focado na praticidade, permite registrar e gerenciar anotações facilmente, ideal para lembrar tarefas e manter organização descomplicada."
               : "Taskify, simple system for creating, archiving and deleting notes. Focused on practicality, it allows you to easily record and manage notes, ideal for remembering tasks and maintaining uncomplicated organization."
           }`}
-          stackOne="React y Styled Components"
+          stackOne="React"
           stackTwo="localStorage"
           code="https://github.com/sillasemanoel/taskify"
           liveDemo="https://taskify-psi.vercel.app"
